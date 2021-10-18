@@ -1,7 +1,7 @@
 <?php 
   
 
-  namespace alexandre\DigitalCep;
+  namespace alexandreleao\DigitalCep;
 
 
 class Search{

@@ -1,25 +1,19 @@
 {
     "name": "alexandreleao/digital-cep",
-    "description": "Busca de cep online",
+    "description": "Procura por CEP",
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "stable",
-    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Alexandreleao\\DigitalCep\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "alexandreleao",
             "email": "erdleosalgueiro@gmail.com"
         }
     ],
-    "require": {
-        "php": ">=7.2.0"
-    },
-    "autoload": {
-        "psr-0":{
-            "Search": "src/"
-        },
-        "psr-4": {
-            "alexandreleao\\DigitalCep\\": "src/"
-        }
-    }
+    "minimum-stability": "dev",
+    "require": {}
 }
