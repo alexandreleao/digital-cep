@@ -1,11 +1,11 @@
-<?php
+<?php 
+ 
+ require_once "vendor/autoload.php";
 
-require_once "vendor/autoload.php";
+ use \alexandre\DigitalCep\Search;
 
-use Wead\DigitalCep\Search;
+ $busca = new Search;
 
-$busca = new Search;
+ $resultado = $busca->getAddressFromZipcode('41330035');
 
-$resultado = $busca->getAddressFromZipcode('01001000');
-
-print_r($resultado);
+ print_r($resultado);
