@@ -1,5 +1,5 @@
 {
-    "name": "alexandre/digital-cep",
+    "name": "alexandreleao/digital-cep",
     "description": "Busca de cep online",
     "type": "library",
     "license": "MIT",
@@ -17,7 +17,7 @@
             "Search": "src/"
         },
         "psr-4": {
-            "alexandre\\DigitalCep\\": "src/"
+            "alexandreleao\\DigitalCep\\": "src/"
         }
     }
 }
