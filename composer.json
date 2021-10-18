@@ -3,8 +3,8 @@
     "description": "Busca de cep online",
     "type": "library",
     "license": "MIT",
-     
     "minimum-stability": "stable",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "alexandreleao",
