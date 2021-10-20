@@ -15,6 +15,7 @@ class SearchTest extends TestCase{
 
         $resultado =  $resultado->getAddressFromZipcode($input);
 
+
        $this->assertEquals($esperado, $resultado);
 
     }
